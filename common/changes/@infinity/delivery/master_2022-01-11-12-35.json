@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@infinity/delivery",
+      "comment": "update",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@infinity/delivery"
+}
