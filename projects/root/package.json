@@ -1,6 +1,6 @@
 {
   "name": "@infinity/root",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "devDependencies": {
     "@babel/core": "^7.13.10",
     "@babel/preset-react": "^7.12.13",
@@ -32,6 +32,6 @@
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
     "styled-components": "^4.3.2",
-    "@infinity/delivery": "~2.0.7"
+    "@infinity/delivery": "~2.0.8"
   }
 }
