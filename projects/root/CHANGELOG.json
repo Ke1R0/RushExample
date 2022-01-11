@@ -1,0 +1,17 @@
+{
+  "name": "@infinity/root",
+  "entries": [
+    {
+      "version": "1.0.1",
+      "tag": "@infinity/root_v1.0.1",
+      "date": "Tue, 11 Jan 2022 07:59:46 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Update dist files"
+          }
+        ]
+      }
+    }
+  ]
+}

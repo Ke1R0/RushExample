@@ -34,3 +34,14 @@ or
 ```sh
 rush deploy --overwrite --scenario full
 ```
+
+## Publish
+### To .tgz file
+Files will be published to RushProj/common/temp/projects/*.tgz
+```sh
+rush publish --pack --include-all --publish
+```
+### To npm registry
+```sh
+
+```

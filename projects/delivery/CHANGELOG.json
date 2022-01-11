@@ -1,0 +1,17 @@
+{
+  "name": "@infinity/delivery",
+  "entries": [
+    {
+      "version": "1.0.1",
+      "tag": "@infinity/delivery_v1.0.1",
+      "date": "Tue, 11 Jan 2022 07:59:46 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Export App component"
+          }
+        ]
+      }
+    }
+  ]
+}
