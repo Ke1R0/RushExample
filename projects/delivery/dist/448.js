@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_infinity_delivery=self.webpackChunk_infinity_delivery||[]).push([[448],{448:(e,n,l)=>{l.r(n),l.d(n,{App:()=>r});var t=l(129),i=l.n(t);const r=({storeName:e})=>i().createElement(t.Fragment,null,i().createElement("h1",null,e,": Delivery App"),i().createElement("p",null,"Description"))}}]);
