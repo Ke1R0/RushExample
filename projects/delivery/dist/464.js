@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_infinity_delivery=self.webpackChunk_infinity_delivery||[]).push([[464],{464:(e,n,t)=>{t.r(n);var l=t(129),r=t.n(l),i=t(112);const c=()=>r().createElement(l.Fragment,null,r().createElement("h1",null,"Delivery App"));t.n(i)().render(r().createElement(c,null),document.getElementById("root"))}}]);
