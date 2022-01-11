@@ -25,7 +25,8 @@
     "typescript": "^4.2.3",
     "webpack": "^5.26.0",
     "webpack-cli": "^4.5.0",
-    "webpack-dev-server": "^3.11.2"
+    "webpack-dev-server": "^3.11.2",
+    "@babel/cli": "~7.16.8"
   },
   "peerDependencies": {
     "react": "^17.0.1",
@@ -33,7 +34,7 @@
   },
   "scripts": {
     "start": "webpack serve",
-    "build": "webpack --mode production",
+    "build": "babel ./src --out-dir ./dist --extensions \".ts,.tsx\"",
     "serve": "serve dist -p 3003",
     "clean": "rm -rf dist"
   },
