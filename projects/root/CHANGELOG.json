@@ -2,6 +2,18 @@
   "name": "@infinity/root",
   "entries": [
     {
+      "version": "1.0.5",
+      "tag": "@infinity/root_v1.0.5",
+      "date": "Tue, 11 Jan 2022 13:10:45 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "update dist"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.0.4",
       "tag": "@infinity/root_v1.0.4",
       "date": "Tue, 11 Jan 2022 12:36:33 GMT",
