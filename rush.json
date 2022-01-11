@@ -459,15 +459,21 @@
     // }
     {
       "packageName": "@infinity/root",
-      "projectFolder": "projects/root"
+      "projectFolder": "projects/root",
+      "reviewCategory": "production",
+      "shouldPublish": true
     },
     {
       "packageName": "@infinity/delivery",
-      "projectFolder": "projects/delivery"
+      "projectFolder": "projects/delivery",
+      "reviewCategory": "production",
+      "shouldPublish": true
     },
     {
       "packageName": "@infinity/orders",
-      "projectFolder": "projects/orders"
+      "projectFolder": "projects/orders",
+      "reviewCategory": "production",
+      "shouldPublish": true
     }
   ]
 }
