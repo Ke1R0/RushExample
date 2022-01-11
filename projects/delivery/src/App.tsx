@@ -4,8 +4,8 @@ interface Props {
     storeName: string;
 }
 
-export const App = ({ storeName }: Props) => (
+export const App = ({ storeName: name }: Props) => (
     <Fragment>
-        <h1>{storeName}: Delivery App</h1>
+        <h1>{name}: Delivery App</h1>
     </Fragment>
 );
