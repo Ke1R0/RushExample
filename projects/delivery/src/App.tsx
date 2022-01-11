@@ -1,7 +1,11 @@
 import React, { Fragment } from 'react';
 
-export const App = () => (
+interface Props {
+    storeName: string;
+}
+
+export const App = ({ storeName }: Props) => (
     <Fragment>
-        <h1>Delivery App</h1>
+        <h1>{storeName}: Delivery App</h1>
     </Fragment>
 );
