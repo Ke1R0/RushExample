@@ -17,7 +17,6 @@ module.exports = merge(common, {
             name: "root",
             library: {type: "var", name: "root"},
             remotes: {
-                delivery: "delivery",
                 orders: "orders"
             }
         })

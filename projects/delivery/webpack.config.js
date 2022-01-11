@@ -1,6 +1,5 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const ESLintPlugin =require("eslint-webpack-plugin");
-const { ModuleFederationPlugin } = require("webpack").container;
 const path = require("path");
 
 module.exports = {
@@ -10,9 +9,6 @@ module.exports = {
     contentBase: path.join(__dirname, "dist"),
     port: 3002,
     historyApiFallback: true,
-  },
-  output: {
-    publicPath: "http://localhost:3002/",
   },
   resolve: {
     extensions: [".ts", ".tsx", ".js"],
@@ -35,15 +31,6 @@ module.exports = {
   plugins: [
     new ESLintPlugin({
       extensions: ["js", "jsx", "ts", "tsx"],
-    }),
-    new ModuleFederationPlugin({
-      name: "delivery",
-      library: { type: "var", name: "delivery" },
-      filename: "remoteEntry.js",
-      exposes: {
-        "./App": "./src/App",
-      },
-      shared: ["react", "react-dom"],
     }),
     new HtmlWebpackPlugin({
       template: "./public/index.html",

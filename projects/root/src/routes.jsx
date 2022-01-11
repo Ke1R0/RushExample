@@ -2,8 +2,8 @@ import React, { Fragment } from 'react';
 import { Route } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import HomePage from './components/HomePage';
+import { App as DeliveryApp } from '@infinity/delivery';
 
-const Delivery = React.lazy(() => import('delivery/App'));
 const Orders = React.lazy(() => import('orders/App'));
 export const Routes = ({ store }) => {
   const user = useSelector((state) => state?.user);
@@ -17,7 +17,7 @@ export const Routes = ({ store }) => {
       </Route>
       {user?.isConnected && (
           <Route path='/delivery/'>
-            <Delivery store={store} />
+            <DeliveryApp storeName="Global Store" />
           </Route>
       )}
     </Fragment>
