@@ -43,5 +43,5 @@ rush publish --pack --include-all --publish
 ```
 ### To npm registry
 ```sh
-
+rush publish --apply --target-branch master --publish --registry http://localhost:4873 --npm-auth-token Kmy9sBG+nf9rgPzrBdO2zw==
 ```

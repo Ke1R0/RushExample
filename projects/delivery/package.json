@@ -1,6 +1,6 @@
 {
   "name": "@infinity/delivery",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "devDependencies": {
     "@babel/core": "^7.13.10",
     "@babel/preset-react": "^7.12.13",
