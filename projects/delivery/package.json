@@ -27,6 +27,10 @@
     "webpack-cli": "^4.5.0",
     "webpack-dev-server": "^3.11.2"
   },
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
   "scripts": {
     "start": "webpack serve",
     "build": "webpack --mode production",
@@ -34,9 +38,6 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-router-dom": "^5.2.0",
     "styled-components": "^4.3.2"
   }
 }

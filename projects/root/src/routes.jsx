@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import { Route } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import HomePage from './components/HomePage';
-import { App as DeliveryApp } from '@infinity/delivery';
+import DeliveryApp from '@infinity/delivery';
 
 const Orders = React.lazy(() => import('orders/App'));
 export const Routes = ({ store }) => {
