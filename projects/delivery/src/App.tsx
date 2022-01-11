@@ -7,5 +7,6 @@ interface Props {
 export const App = ({ storeName: name }: Props) => (
     <Fragment>
         <h1>{name}: Delivery App</h1>
+        <p>Description</p>
     </Fragment>
 );
