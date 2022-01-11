@@ -2,6 +2,23 @@
   "name": "@infinity/root",
   "entries": [
     {
+      "version": "1.0.3",
+      "tag": "@infinity/root_v1.0.3",
+      "date": "Tue, 11 Jan 2022 12:11:25 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "update dist"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@infinity/delivery\" from `~2.0.10` to `~2.0.11`"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.0.2",
       "tag": "@infinity/root_v1.0.2",
       "date": "Tue, 11 Jan 2022 11:26:15 GMT",
