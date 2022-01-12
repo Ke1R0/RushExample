@@ -1,9 +1,11 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@babel/cli': ~7.16.8
   '@babel/core': ^7.13.10
   '@babel/preset-react': ^7.12.13
   '@babel/preset-typescript': ^7.13.0
+  '@infinity/delivery': 2.0.14
   '@rush-temp/delivery': file:./projects/delivery.tgz
   '@rush-temp/orders': file:./projects/orders.tgz
   '@rush-temp/root': file:./projects/root.tgz
@@ -14,8 +16,6 @@ specifiers:
   '@types/webpack-env': ^1.16.0
   '@typescript-eslint/eslint-plugin': ~4.18.0
   '@typescript-eslint/parser': ^4.18.0
-  babel-cli: ~6.26.0
-  babel-core: ~6.26.3
   babel-loader: ^8.2.2
   bundle-loader: ^0.5.6
   eslint: ~7.22.0
@@ -39,9 +39,11 @@ specifiers:
   webpack-merge: ^5.7.3
 
 dependencies:
+  '@babel/cli': 7.16.8_@babel+core@7.16.7
   '@babel/core': 7.16.7
   '@babel/preset-react': 7.16.7_@babel+core@7.16.7
   '@babel/preset-typescript': 7.16.7_@babel+core@7.16.7
+  '@infinity/delivery': 2.0.14_react-dom@17.0.2+react@17.0.2
   '@rush-temp/delivery': file:projects/delivery.tgz
   '@rush-temp/orders': file:projects/orders.tgz
   '@rush-temp/root': file:projects/root.tgz
@@ -52,8 +54,6 @@ dependencies:
   '@types/webpack-env': 1.16.3
   '@typescript-eslint/eslint-plugin': 4.18.0_f86c0b8edc6aa7eddaef20e69ddf5dce
   '@typescript-eslint/parser': 4.33.0_eslint@7.22.0+typescript@4.5.4
-  babel-cli: 6.26.0
-  babel-core: 6.26.3
   babel-loader: 8.2.3_c391fd7145c194be609b87ed083bbc6a
   bundle-loader: 0.5.6
   eslint: 7.22.0
@@ -523,6 +523,17 @@ packages:
       strip-json-comments: 3.1.1
     transitivePeerDependencies:
       - supports-color
+    dev: false
+
+  /@infinity/delivery/2.0.14_react-dom@17.0.2+react@17.0.2:
+    resolution: {integrity: sha512-eh7ZqohQ8aERDpvo7je/k5suvLUmUTv7TqT+TGwJcIld2aehMk5AooxOxj9mH9sI2qfxyqFydhabdwZP8wu2Fg==}
+    peerDependencies:
+      react: ^17.0.1
+      react-dom: ^17.0.1
+    dependencies:
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
+      styled-components: 4.4.1_react-dom@17.0.2+react@17.0.2
     dev: false
 
   /@nicolo-ribaudo/chokidar-2/2.1.8-no-fsevents.3:
@@ -6375,7 +6386,7 @@ packages:
     dev: false
 
   file:projects/delivery.tgz:
-    resolution: {integrity: sha512-zXyq7Wak1fjbNRp6VqgaC7Ewn/OijO3htORAoZGY+LLQQTbukzAFHP2KygRKgZw1DinJk5hwiMsvzwDk1z+A5A==, tarball: file:projects/delivery.tgz}
+    resolution: {integrity: sha512-WYFiVvoNqfT4eaIrVuCNTqaTG4FMVcCDkQAurw6W77+or0lQZQdCBGQq+C0tkm7RSzGNznMMdKNRV9+niyUQxg==, tarball: file:projects/delivery.tgz}
     name: '@rush-temp/delivery'
     version: 0.0.0
     dependencies:
@@ -6460,12 +6471,13 @@ packages:
     dev: false
 
   file:projects/root.tgz:
-    resolution: {integrity: sha512-0rstyw5oVyPocJbFtJXdJSwjI80kWlfGcwW4yHwdbU15HhgtKERsPaHJSixRDcYdhx31goN1KE98ZJKfpN+BmQ==, tarball: file:projects/root.tgz}
+    resolution: {integrity: sha512-iizJW6fMnbburVcsTfIv29v0QIZZtTPzGduz6+7RPlOVDBf9vORGQbZZG7TU4E6xwVVXZSXo/t4cAvoRDf1FLg==, tarball: file:projects/root.tgz}
     name: '@rush-temp/root'
     version: 0.0.0
     dependencies:
       '@babel/core': 7.16.7
       '@babel/preset-react': 7.16.7_@babel+core@7.16.7
+      '@infinity/delivery': 2.0.14_react-dom@17.0.2+react@17.0.2
       babel-loader: 8.2.3_c391fd7145c194be609b87ed083bbc6a
       bundle-loader: 0.5.6
       eslint: 7.22.0
