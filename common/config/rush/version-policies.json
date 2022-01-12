@@ -99,4 +99,8 @@
   // 
   //   // "includeEmailInChangeFile": true
   // }
+  {
+    "definitionName": "individualVersion",
+    "policyName": "InfinityProjects"
+  }
 ]
