@@ -1,6 +1,14 @@
 # Change Log - @infinity/root
 
-This log was last generated on Tue, 11 Jan 2022 13:10:45 GMT and should not be manually modified.
+This log was last generated on Wed, 12 Jan 2022 08:52:02 GMT and should not be manually modified.
+
+## 1.0.7
+Wed, 12 Jan 2022 08:52:02 GMT
+
+### Patches
+
+- rename store
+- store renamed
 
 ## 1.0.5
 Tue, 11 Jan 2022 13:10:45 GMT
