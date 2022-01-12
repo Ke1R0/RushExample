@@ -43,9 +43,13 @@ rush publish --pack --include-all --publish
 ```
 ### To npm registry
 ```sh
-rush publish --apply --target-branch master --publish --registry http://localhost:4873/ --npm-auth-token ${RUSHPROJ_NPM_TOKEN}
+rush publish --apply --target-branch master --publish --registry http://localhost:4873/ --npm-auth-token ${RUSHPROJ_NPM_TOKEN} --prerelease-name beta --partial-prerelease
 ```
 ### All to npm registry
 ```sh
 rush publish --apply --target-branch master --publish --registry http://localhost:4873/ --npm-auth-token ${RUSHPROJ_NPM_TOKEN} --include-all --force
+```
+### Partial To npm registry
+```sh
+rush publish --apply --target-branch master --publish --registry http://localhost:4873/ --npm-auth-token ${RUSHPROJ_NPM_TOKEN} --prerelease-name beta --partial-prerelease
 ```
