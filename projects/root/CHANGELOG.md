@@ -1,6 +1,13 @@
 # Change Log - @infinity/root
 
-This log was last generated on Wed, 12 Jan 2022 09:30:51 GMT and should not be manually modified.
+This log was last generated on Wed, 12 Jan 2022 09:33:13 GMT and should not be manually modified.
+
+## 1.0.9
+Wed, 12 Jan 2022 09:33:13 GMT
+
+### Patches
+
+- revert delivery
 
 ## 1.0.8
 Wed, 12 Jan 2022 09:30:51 GMT
