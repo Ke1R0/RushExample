@@ -17,7 +17,7 @@ export const Routes = ({ store }) => {
       </Route>
       {user?.isConnected && (
           <Route path='/delivery/'>
-            <DeliveryApp storeName="Big Store" />
+            <DeliveryApp storeName="General Store" />
           </Route>
       )}
     </Fragment>
