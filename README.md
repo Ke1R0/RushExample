@@ -45,3 +45,7 @@ rush publish --pack --include-all --publish
 ```sh
 rush publish --apply --target-branch master --publish --registry http://localhost:4873/ --npm-auth-token ${RUSHPROJ_NPM_TOKEN}
 ```
+### All to npm registry
+```sh
+rush publish --apply --target-branch master --publish --registry http://localhost:4873/ --npm-auth-token ${RUSHPROJ_NPM_TOKEN} --include-all --force
+```
