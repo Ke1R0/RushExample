@@ -2,6 +2,18 @@
   "name": "@infinity/delivery",
   "entries": [
     {
+      "version": "3.0.3",
+      "tag": "@infinity/delivery_v3.0.3",
+      "date": "Fri, 14 Jan 2022 07:56:28 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "bug fix"
+          }
+        ]
+      }
+    },
+    {
       "version": "3.0.2",
       "tag": "@infinity/delivery_v3.0.2",
       "date": "Wed, 12 Jan 2022 14:02:49 GMT",
