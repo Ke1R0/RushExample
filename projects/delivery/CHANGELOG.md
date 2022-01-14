@@ -1,6 +1,13 @@
 # Change Log - @infinity/delivery
 
-This log was last generated on Fri, 14 Jan 2022 07:56:28 GMT and should not be manually modified.
+This log was last generated on Fri, 14 Jan 2022 09:29:56 GMT and should not be manually modified.
+
+## 3.0.4
+Fri, 14 Jan 2022 09:29:56 GMT
+
+### Patches
+
+- revert all
 
 ## 3.0.3
 Fri, 14 Jan 2022 07:56:28 GMT

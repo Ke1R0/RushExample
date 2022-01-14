@@ -1,6 +1,6 @@
 {
   "name": "@infinity/delivery",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "main": "dist/index.js",
   "devDependencies": {
     "@babel/core": "^7.13.10",
