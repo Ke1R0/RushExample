@@ -5,7 +5,7 @@ specifiers:
   '@babel/core': ^7.13.10
   '@babel/preset-react': ^7.12.13
   '@babel/preset-typescript': ^7.13.0
-  '@infinity/delivery': 2.0.14
+  '@infinity/delivery': 3.0.3
   '@rush-temp/delivery': file:./projects/delivery.tgz
   '@rush-temp/orders': file:./projects/orders.tgz
   '@rush-temp/root': file:./projects/root.tgz
@@ -43,7 +43,7 @@ dependencies:
   '@babel/core': 7.16.7
   '@babel/preset-react': 7.16.7_@babel+core@7.16.7
   '@babel/preset-typescript': 7.16.7_@babel+core@7.16.7
-  '@infinity/delivery': 2.0.14_react-dom@17.0.2+react@17.0.2
+  '@infinity/delivery': 3.0.3_react-dom@17.0.2+react@17.0.2
   '@rush-temp/delivery': file:projects/delivery.tgz
   '@rush-temp/orders': file:projects/orders.tgz
   '@rush-temp/root': file:projects/root.tgz
@@ -525,8 +525,8 @@ packages:
       - supports-color
     dev: false
 
-  /@infinity/delivery/2.0.14_react-dom@17.0.2+react@17.0.2:
-    resolution: {integrity: sha512-eh7ZqohQ8aERDpvo7je/k5suvLUmUTv7TqT+TGwJcIld2aehMk5AooxOxj9mH9sI2qfxyqFydhabdwZP8wu2Fg==}
+  /@infinity/delivery/3.0.3_react-dom@17.0.2+react@17.0.2:
+    resolution: {integrity: sha512-ucAUeEnvMlgfBna/w6q3bs/6TQQ/qye4kHVNXYz8er50RuRKE/3VhQyt2/TFyN/+6PJ4yWQNa/Rguy71ZUF7lQ==}
     peerDependencies:
       react: ^17.0.1
       react-dom: ^17.0.1
@@ -6471,13 +6471,13 @@ packages:
     dev: false
 
   file:projects/root.tgz:
-    resolution: {integrity: sha512-iizJW6fMnbburVcsTfIv29v0QIZZtTPzGduz6+7RPlOVDBf9vORGQbZZG7TU4E6xwVVXZSXo/t4cAvoRDf1FLg==, tarball: file:projects/root.tgz}
+    resolution: {integrity: sha512-bMNhZlcxH2KFtBhgYkl+YRgTiBT6sd3Lq8nzKtRCc9wIV98V235HKOeDdCsmWGFNwQSQSYT7WaiqFP4NE/oemQ==, tarball: file:projects/root.tgz}
     name: '@rush-temp/root'
     version: 0.0.0
     dependencies:
       '@babel/core': 7.16.7
       '@babel/preset-react': 7.16.7_@babel+core@7.16.7
-      '@infinity/delivery': 2.0.14_react-dom@17.0.2+react@17.0.2
+      '@infinity/delivery': 3.0.3_react-dom@17.0.2+react@17.0.2
       babel-loader: 8.2.3_c391fd7145c194be609b87ed083bbc6a
       bundle-loader: 0.5.6
       eslint: 7.22.0
