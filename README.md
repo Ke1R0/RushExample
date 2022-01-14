@@ -35,6 +35,13 @@ or
 rush deploy --overwrite --scenario full
 ```
 
+## Publish Prerequisites
+### Start Verdaccio
+```sh
+verdaccio
+```
+and then publish all packages. Use `All to npm registry` command for ths.
+
 ## Publish
 ### To .tgz file
 Files will be published to RushProj/common/temp/projects/*.tgz
@@ -43,7 +50,7 @@ rush publish --pack --include-all --publish
 ```
 ### To npm registry
 ```sh
-rush publish --apply --target-branch master --publish --registry http://localhost:4873/ --npm-auth-token ${RUSHPROJ_NPM_TOKEN} --prerelease-name beta --partial-prerelease
+rush publish --apply --target-branch master --publish --registry http://localhost:4873/ --npm-auth-token ${RUSHPROJ_NPM_TOKEN}
 ```
 ### All to npm registry
 ```sh
