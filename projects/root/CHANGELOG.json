@@ -2,6 +2,18 @@
   "name": "@infinity/root",
   "entries": [
     {
+      "version": "1.0.20",
+      "tag": "@infinity/root_v1.0.20",
+      "date": "Fri, 14 Jan 2022 09:59:15 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "change store name"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.0.19",
       "tag": "@infinity/root_v1.0.19",
       "date": "Fri, 14 Jan 2022 09:54:41 GMT",
