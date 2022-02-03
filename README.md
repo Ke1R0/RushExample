@@ -40,6 +40,7 @@ rush deploy --overwrite --scenario full
 ```sh
 verdaccio
 ```
+the server is running at http://localhost:4873
 and then publish all packages. Use `All to npm registry` command for ths.
 
 ## Publish
