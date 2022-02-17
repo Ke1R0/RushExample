@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@infinity/root",
+      "comment": "Rename application",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@infinity/root"
+}
