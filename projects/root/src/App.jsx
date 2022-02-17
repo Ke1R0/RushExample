@@ -16,7 +16,7 @@ const App = () => {
         <Provider store={store}>
             <GlobalStyle />
             <BrowserRouter>
-                <Header sitename="Infinity"/>
+                <Header sitename="Infinity - web"/>
                 <Navbar />
                 <SWrapper>
                     <React.Suspense fallback={"Loading"}>
