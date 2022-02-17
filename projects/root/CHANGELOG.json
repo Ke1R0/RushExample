@@ -2,6 +2,18 @@
   "name": "@infinity/root",
   "entries": [
     {
+      "version": "1.0.21",
+      "tag": "@infinity/root_v1.0.21",
+      "date": "Thu, 17 Feb 2022 08:46:30 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Rename application"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.0.20",
       "tag": "@infinity/root_v1.0.20",
       "date": "Fri, 14 Jan 2022 09:59:15 GMT",

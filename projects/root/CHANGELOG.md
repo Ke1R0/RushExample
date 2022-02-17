@@ -1,6 +1,13 @@
 # Change Log - @infinity/root
 
-This log was last generated on Fri, 14 Jan 2022 09:59:15 GMT and should not be manually modified.
+This log was last generated on Thu, 17 Feb 2022 08:46:30 GMT and should not be manually modified.
+
+## 1.0.21
+Thu, 17 Feb 2022 08:46:30 GMT
+
+### Patches
+
+- Rename application
 
 ## 1.0.20
 Fri, 14 Jan 2022 09:59:15 GMT
